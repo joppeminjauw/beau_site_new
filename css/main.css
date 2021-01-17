@@ -1,0 +1,105 @@
+body {
+  background-image: url("/assets/bg.JPG");
+  background-size: cover;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.bg-faded {
+  background-color: rgba(56, 56, 56, 0.8);
+  border-radius: 10px;
+  color: white;
+}
+
+.beau-nav {
+  background-color: rgba(56, 56, 56, 0.8);
+}
+
+.beau-nav a {
+  color: #ffd700;
+}
+
+.beau-nav a:hover {
+  border-bottom: 0.5px solid #ffd700;
+  border-top: 0.5px solid #ffd700;
+  color: #ffd700;
+}
+
+.nav-stick {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100%;
+  background-color: #383838;
+}
+
+.nav-stick + .content {
+  padding-top: 5%;
+}
+
+.active {
+  border-bottom: 1px solid #ffd700;
+  border-top: 1px solid #ffd700;
+}
+
+.gold {
+  color: #ffd700;
+}
+
+.section-title {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffd700;
+}
+
+.tagline-upper {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.tagline-lower {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+hr.divider {
+  border-color: #ffd700;
+  max-width: 20%;
+}
+
+#email {
+  color: white;
+}
+
+#fb-icon {
+  color: #4267b2;
+}
+
+#fb-icon i {
+  background-color: white;
+  border-radius: 50%;
+}
+
+#fb-icon:hover {
+  color: #315db6;
+}
+
+#messenger-icon {
+  color: #4267b2;
+}
+
+#messenger-icon i {
+  background-color: white;
+  border-radius: 50%;
+}
+
+#messenger-icon:hover {
+  color: #315db6;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/*# sourceMappingURL=main.css.map */
