@@ -50,7 +50,7 @@ activateSection = () => {
 
     sections.each(function () {
 
-        var top = $(this).offset().top-100;
+        var top = $(this).offset().top-120;
         var bottom = top + $(this).outerHeight();
 
         if (pos >= top && pos <= bottom) {

@@ -1,7 +1,26 @@
 body {
     background-image: url("/assets/bg.JPG");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(83, 83, 83, 1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(56, 56, 56, 0.8);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(56, 56, 56, 1);
 }
 
 .bg-faded {
@@ -14,6 +33,11 @@ body {
     background-color: rgba(56, 56, 56, 0.8);
     a {
         color: #ffd700;
+        text-decoration: none;
+        border-bottom: 0.5px solid #ffd90000;
+        border-top: 0.5px solid #ffd90000;
+        transition: 0.7s;
+
         &:hover {
             border-bottom: 0.5px solid #ffd700;
             border-top: 0.5px solid #ffd700;
@@ -34,8 +58,8 @@ body {
 }
 
 .active {
-    border-bottom: 1px solid #ffd700;
-    border-top: 1px solid #ffd700;
+    border-bottom: 1px solid #ffd700 !important;
+    border-top: 1px solid #ffd700 !important;
 }
 
 .gold {

@@ -1,7 +1,26 @@
 body {
   background-image: url("/assets/bg.JPG");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #535353;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 56, 56, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #383838;
 }
 
 .bg-faded {
@@ -16,6 +35,11 @@ body {
 
 .beau-nav a {
   color: #ffd700;
+  text-decoration: none;
+  border-bottom: 0.5px solid #ffd90000;
+  border-top: 0.5px solid #ffd90000;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .beau-nav a:hover {
@@ -36,8 +60,8 @@ body {
 }
 
 .active {
-  border-bottom: 1px solid #ffd700;
-  border-top: 1px solid #ffd700;
+  border-bottom: 1px solid #ffd700 !important;
+  border-top: 1px solid #ffd700 !important;
 }
 
 .gold {
