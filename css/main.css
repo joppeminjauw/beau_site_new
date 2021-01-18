@@ -29,6 +29,20 @@ body {
   color: white;
 }
 
+.bg-header {
+  background-color: rgba(56, 56, 56, 0.8);
+}
+
+.header-img {
+  width: 60%;
+  position: relative;
+  margin: auto;
+}
+
+#right {
+  padding-right: none !important;
+}
+
 .beau-nav {
   background-color: rgba(56, 56, 56, 0.8);
 }
